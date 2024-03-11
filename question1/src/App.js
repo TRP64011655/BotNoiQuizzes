@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -21,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div>
       <h3>Input: 
         <input type="number" value={inputValue} onChange={handleChange} />
         <button onClick={handleSubmit}>Submit</button>
